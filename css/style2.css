@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+h1 a img{width: 200px; height: 40px;}
+
+*{margin: 0px; padding: 0px;}
+ul, li, ol{list-style: none;}
+a{
+  color: #222328;
+  text-decoration: none;
+}
+body{
+  color: #222328;
+  background-color: #ffffff;
+  font-family: '나눔 고딕', arial, sans-serif;
+  font-size: 12px;
+}
+
+#wrap{
+  width: 1000px;
+  height: 650px;
+  background-color: aqua;
+}
+
+header{
+  width: 200px;
+  height: 650px;
+  background-color: cadetblue;
+  float: left;
+}
+
+.gnb{margin: 10px 10px 0 10px;}
+.gnb > ul{}
+.gnb > ul > li{text-align: center;}
+.gnb > ul > li > a{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.gnb > ul > li:hover > a{
+  color: #ffffff;
+  background-color: crimson;
+}
+
+.sub > li{display: none;}
+.sub > li > a{line-height: 30px;}
+.sub > li > a:hover{
+  color: #ffffff;
+  background-color: darkblue;
+}
+
+main{
+  width: 800px;
+  height: 550px;
+  background-color: coral;
+  float: left;
+}
+
+footer{
+  width: 800px;
+  height: 100px;
+  background-color: cornflowerblue;
+  float: left;
+}
